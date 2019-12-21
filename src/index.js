@@ -1,9 +1,11 @@
   
 import $ from 'jquery';
 import './index.css';
+import buttonListener from './ButtonListeners';
 
 const main = function () {
-  console.log('ready');
+  buttonListener.bindEventListeners();
+  buttonListener.render();
 };
 
 $(main);
