@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+header {
+  padding: 12% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.project {
+  display: inline-block;
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
